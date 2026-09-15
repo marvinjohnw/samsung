@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMSUNG</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="samsung.html"><b>Samsung</b></a></li>
+            <li><a href="samsung.html">HOME</a></li>
+            <li><a href="our products.html">OUR PRODUCTS</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact us.html">CONTACT US</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <img src="./vs. img/phone page 1.jpg" width="600" height="600">&nbsp;&nbsp;
+        <div><h1>SAMSUNG</h1>
+    <p fontsize="30px"><i><b>Inspire the World, Create the Future</b></i></p></div>
+</div>
+    <h2>Welcome to Samsung</h2>
+    <h3>Innovation that fits your life.</h3>
+        <div class="first">
+        <img src="./vs. img/phone,watch,pod,.png" width="700" height="400">
+    <p>Discover Samsung's latest technology, from Galaxy smartphones and tablets to smart TVs and wearable devices. Explore our products and find technology designed for the way you live.</p></div>
+    <button>Explore Products</button>
+    <footer>
+    <p>© 2026 Samsung Electronics. All Rights Reserved.</p>
+</footer>
+</body>
+<style>
+    body {
+        background-color: #ffffff;
+        font-family: Californian FB;
+        margin: 40px;
+    }
+    h1 {
+        color: #3e4df6;
+    }
+    h2 {
+        font-family: Times New Roman;
+        font-size: 50px;
+        color: #03040d;
+    }
+    h3 {
+        font-family: Times New Roman;
+        font-size: 30px;
+        color: #0e010c;
+    }
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 70px;
+}
+
+.hero p {
+    font-size: 30px;
+}
+.first {
+    display: flex;
+    align-items: center;
+}
+
+.first h1 {
+    font-size: 70px;
+}
+
+.first p {
+    font-size: 30px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+nav li:not(:last-child)::after {
+    content: "|";
+    margin-left: 20px;
+};
+button {
+    font-size: 18px;
+    padding: 12px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+
+    body {
+        margin: 20px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .first img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+}
+</style>
+</html>
